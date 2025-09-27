@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyLearning — Online Course Platform</title>
+  <!-- Tailwind via CDN (untuk demo cepat) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-2xl font-bold text-indigo-600">MyLearning</a>
+      <nav class="space-x-6">
+        <a href="#courses" class="hover:text-indigo-600">Courses</a>
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <div>
+        <button class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">Free Trial</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-50">
+    <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+      <h1 class="text-4xl font-bold mb-4">Belajar Online dengan Cara Interaktif & Menyenangkan</h1>
+      <p class="text-lg mb-8">Kursus berkualitas untuk meningkatkan kemampuan profesionalmu</p>
+      <button class="px-6 py-3 bg-indigo-600 text-white rounded hover:bg-indigo-700">Mulai Trial Gratis</button>
+    </div>
+  </section>
+
+  <!-- Courses / Produk -->
+  <section id="courses" class="py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-8 text-center">Kursus Kami</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://picsum.photos/seed/course1/400/200" alt="Course 1" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Project Management Basics</h3>
+            <p class="text-gray-600 mb-4">Pelajari dasar-dasar manajemen proyek secara interaktif.</p>
+            <button class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">Pelajari Lebih Lanjut</button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://picsum.photos/seed/course2/400/200" alt="Course 2" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Agile dan Scrum Fundamentals</h3>
+            <p class="text-gray-600 mb-4">Kenali metodologi Agile & Scrum dari nol.</p>
+            <button class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">Pelajari Lebih Lanjut</button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://picsum.photos/seed/course3/400/200" alt="Course 3" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Teknik Komunikasi Efektif</h3>
+            <p class="text-gray-600 mb-4">Tingkatkan kemampuan komunikasi Anda di lingkungan profesional.</p>
+            <button class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">Pelajari Lebih Lanjut</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Keunggulan -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Kenapa Memilih Kami?</h2>
+      <div class="space-y-6">
+        <p>⭐ Konten interaktif & storytelling untuk memudahkan pembelajaran.</p>
+        <p>📚 Materi selalu diperbarui sesuai standar industri.</p>
+        <p>✅ Jaminan uang kembali dalam 30 hari bila tidak puas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial / Ulasan -->
+  <section id="testimonials" class="py-16 bg-indigo-50">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-8">Apa Kata Mereka</h2>
+      <div class="space-y-8">
+        <div class="bg-white rounded-lg shadow p-8">
+          <p class="text-lg italic mb-4">"Kursusnya sangat interaktif dan membantu saya lulus ujian pertama!"</p>
+          <p class="font-semibold">– Siti, Project Manager</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-8">
+          <p class="text-lg italic mb-4">"Materinya mudah dimengerti dan sangat relevan."</p>
+          <p class="font-semibold">– Budi, Engineer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-2xl font-bold mb-4">Siap Memulai?</h2>
+      <p class="mb-6">Daftar sekarang dan akses modul gratis selama 7 hari.</p>
+      <button class="px-6 py-3 bg-indigo-600 text-white rounded hover:bg-indigo-700">Daftar Sekarang</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-10">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div>
+        <h3 class="font-semibold mb-3">MyLearning</h3>
+        <p>Platform kursus online interaktif</p>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-3">Menu</h3>
+        <ul class="space-y-2">
+          <li><a href="#courses" class="hover:text-white">Courses</a></li>
+          <li><a href="#about" class="hover:text-white">About</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-3">Kontak</h3>
+        <p>Email: support@mylearning.com</p>
+        <p>Telepon: +62 812 3456 7890</p>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm text-gray-500">&copy; 2025 MyLearning. All rights reserved.</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* Tambahan styling kustom (jika diperlukan) */
+
+/* Contoh: override warna link di footer */
+footer a {
+  color: #ccc;
+}
+footer a:hover {
+  color: #fff;
+}
